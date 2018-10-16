@@ -1,0 +1,20 @@
+{
+  "name": "typescript_nodejs",
+  "version": "1.0.0",
+  "description": "Example project showing how to use Node.js with TypeScript",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "ts-node ./lib/server.ts",
+    "start": "node ./dist/server.js",
+    "prod": "npm run build && npm start"
+  },
+  "author": "Bryan Avery",
+  "license": "ISC"
+}
